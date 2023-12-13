@@ -1,5 +1,5 @@
 {
-  "name": "directory_manager",
+  "name": "@604adrian/directory_manager",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -10,9 +10,14 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "Adrian Jones",
   "license": "ISC",
+  "repository": "https://github.com/604adrian/directory_manager",
+  "homepage": "https://github.com/604adrian/directory_manager#README.md",
   "dependencies": {
     "commander": "^11.1.0",
     "figlet": "^1.7.0"
